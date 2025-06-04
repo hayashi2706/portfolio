@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #43302b;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Noto Serif JP', serif;
+}
+
+/* Custom scrollbar for the page */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f3e8e2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a18072;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #846358;
+}
+
+/* Section transition effects */
+section {
+  position: relative;
+}
+
+/* Add some wooden texture to specific elements */
+.wood-texture {
+  background-image: url('https://images.pexels.com/photos/172289/pexels-photo-172289.jpeg?auto=compress&cs=tinysrgb&w=1600');
+  background-size: cover;
+  background-position: center;
+}
